@@ -32,7 +32,7 @@ function App() {
       if (response && response.data && response.data.carrito) {
         setCart(response.data.carrito);
       } else {
-        setCart(prev => [...prev, { codigo_ean: scannedCode, cantidad }]);
+        setCart(prev => [...prev, { codigo_ean: scannedCode, cantidad: quantity }])
       }
       setSearchCode(scannedCode);
     } catch (error) {
