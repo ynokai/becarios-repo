@@ -12,3 +12,4 @@ const productSchema = new mongoose.Schema({
 
 // Si el modelo ya existe, lo usamos, de lo contrario, lo creamos.
 module.exports = mongoose.models.Product || mongoose.model('Product', productSchema);
+//Hola como estas
