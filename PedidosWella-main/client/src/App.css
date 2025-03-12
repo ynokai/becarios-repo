@@ -2,17 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 /* Estilos globales */
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: Times black;
   line-height: 1.8;
   background-color: #f5faff56; /* Fondo muy claro, azul suave */
+  
 }
 
 /* Contenedor principal */
 .container {
   padding: 80px;
+  background-color: #ffffff;
 }
 
 /* Cabecera: título y botón juntos */
@@ -20,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(135deg, #d0ac0c, #b09000);
+  background: linear-gradient(135deg, #3b73f7, #004be1);
   padding: 20px 40px;
   border-radius: 8px;
   margin-bottom: 40px;
@@ -29,7 +32,8 @@ body {
 .header h1 {
   margin: 0;
   font-size: 32px;
-  color: #000000;
+  color: white;
+  font-family: Arial black;
 }
 
 .scan-button {
@@ -45,18 +49,17 @@ body {
 }
 
 .scan-button:hover {
-  background-color: #1565C0;
+  background-color: #013f5e;
   transform: scale(1.03);
 }
 
 /* Espaciado entre cabecera y búsqueda */
-.spacer {
-  margin-top: 60px;
-}
+
 
 /* Separación entre componentes */
-.component {
+.component{
   margin-bottom: 50px;
+ 
 }
 
 /* Contenedor para el escáner */
@@ -67,6 +70,7 @@ body {
   background-color: #eee;
   margin-top: 20px;
   margin-bottom: 20px;
+ 
 }
 
 /* Contenedor para el resultado del escaneo */
@@ -80,6 +84,39 @@ body {
 }
 
 /* Estilos para la sección de búsqueda manual, UploadExcel, etc. */
+.component{
+  border:solid black;
+  background-color: rgb(120, 208, 243);
+  display: inline-block;
+  width:450px;
+  margin:0.5em;
+  border-radius:8px;
+}
+
+.component h2{
+  padding: 0.5em;
+  background-color: #037ef9;
+  margin:0.5em;
+  border-radius: 8px;
+  
+}
+
+.component input{
+  margin: 0.5em;
+  border-radius: 8px;
+  
+}
+
+.component p{
+  margin:0.5em;
+  font-family: Arial;
+  background-color: white;
+  
+}
+
+
+
+
 /* Puedes ajustar estos valores según necesites */
 
 /* Estilo para mensajes de error */
