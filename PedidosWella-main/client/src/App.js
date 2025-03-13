@@ -72,6 +72,7 @@ function App() {
         <button className="scan-button" onClick={() => { setErrorMsg(''); setShowScanner(true); }}>
           Escanear código de barras
         </button>
+        <img src="/logo.png" alt="Logo" className="header-logo" />
       </div>
       
       {showScanner && (
